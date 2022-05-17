@@ -155,7 +155,7 @@ Gather the points that answered "What can a beginner trafer glean from this?". D
 
 ### Difficulties
 
-![UNIX Issue](UNIX issue.JPG)
+![UNIX Issue](https://github.com/RaelynSangil/Project-1/blob/a0c818ba114b35578dda984b6c9f57023eeb7448/UNIX%20issue.JPG)
 
 - <ins> Coingecko provided dates in UNIX </ins> - As we began cleaning our data for our cryptocurrency samples, we noticed that dates were a long string of unknoen numbers. We soon found out it was UNIX datetime format. We googled for example coding and found that the reason we were having difficulty was because the UNIX format was going down to the millisecond and not second as most of the sample code online was suggesting.
 
