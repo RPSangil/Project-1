@@ -12,22 +12,28 @@ Ramon Lee
 ## Project Description
 
 ### The Scope
-Who is the target audience? How does our project help them? Why is this important?
+
+This project provides an analysis of 5 Crypto Currencies and 5 Stocks, all high in market values as of 05/05/2022. This analysis will be useful to help beginner traders. It will highlight different elements to consider when performing due diligence prior to purchasing on the Trade Market. 
+
+The project aims to help begginer investors **save** money and **make** money.
 
 ### Data Sources
-**We chose the 5 High Market Price Crypto Currencies of 05/05/2022.**
 
-Name of Crypto currencies - description?
+**We chose the 5 High Market Price Cryptocurrencies of 05/05/2022.**
 
-Name of Crypto currencies - description?
+Cryptocurrency is a digital currency that has been designed to work a medium of exchange through a computer network that is not reliant through on any central authority (government or bank) to uphold and maintain it. (https://en.wikipedia.org/wiki/Cryptocurrency)
 
-Name of Crypto currencies - description?
+Bitcoin *BTC* - Created and released by Satoshi Nakomoto, this cryptocurrency has a limited supply of 21 million and works on a blockchain ledger. It is easily moved from one exchange account or digital wallet to another and easily transferred from one user to another or merchant. Many experts believe that these factors give the Bitcoin the value that it currently has today.
 
-Name of Crypto currencies - description?
+Ethereum *ETH* - Via blockchain technology, Ethereum is the largest and most well-established, open-ended decentralized software platform. It enables the development of smart contracts and decentralized applications to be built and run without any downtime, fraud, control, or interference from a third party. Ether (ETH) is the fuel used to run commands in the Ethereum platform and is used by developers to build and run applications on the platform. (https://www.investopedia.com/articles/investing/031416/bitcoin-vs-ethereum-driven-different-purposes.asp#:~:text=Ethereum%20Basics,-Blockchain%20technology%20is&text=Ethereum%20enables%20the%20deployment%20of,interference%20from%20a%20third%20party.)
 
-Name of Crypto currencies - description?
+Litecoin *LTC* - Litecoin was developed to be a compliment to Bitcoin. Satoshi Nakomoto saw that a major drawback of Bitcoin would be the speed in which it adds blocks. Litecoin has improved speed (2.5 minutes per block on average) and accessibility when compared to Bitcoin. However, this currency has a higher limited supply of 84 million. Litecoin was made to be a more practical and scalable medium than Bitcoin. It is now one of the most recognized, trusted and used blockchain-based payment networks in the world. (https://www.gemini.com/cryptopedia/litecoin-vs-bitcoin-blockchain#section-litecoin-is-a-complement-to-bitcoin-not-a-competitor)
 
-[title](thisisalink)
+Solana *SOL* - Like Ethereum, Solana is both a cryptocurrency and a platform for running crypto applications. SOL is used for staking and voting on future upgrades. It is fast and congestion and fees remain low. (https://www.coinbase.com/learn/crypto-basics/what-is-solana)
+
+Cardano *ADA* - Other than being a cryptocurrency, every ADA holder also holds a stake in the Cardano network. ADA stored in a wallet can be delegated to a stake pool to earn rewards (to participate in the successful running of the network ) or pledged to a stake pool to increase the pool's likelihood of receiving rewards. In time, ADA will also be usable for a variety of applications and services on the Cardano platform. (https://cardano.org/what-is-ada/#:~:text=Ada%20is%20a%20digital%20currency,recorded%20on%20the%20Cardano%20blockchain.)
+
+[Source](https://www.coingecko.com/en/api/)
 
 **We chose the 5 High Market Price Stocks of 05/05/2022.**
 
