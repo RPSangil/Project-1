@@ -1,4 +1,4 @@
-# Project-1 <Project name>
+# Project-1 **Put the project name here**
 **FinTech Group Assessment 1**
 
 Raelyn Sangil (L)
