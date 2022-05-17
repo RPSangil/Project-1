@@ -65,9 +65,35 @@ Name of technology used - what was it used for?
 
 **Why is Performance Analysis important?**
 
-Answer
+Stock market analysis helps the investors to identify whether the worth of security is valued in the market. If a stock performs poorly, an investor will make a loss. If a stock performs well, an investor can make a profit.[<sup>12</sup>](https://blog.skillsuccess.com/why-is-stock-market-analysis-so-important/#:~:text=Investors%20rely%20on%20stock%20analysis,stock%20market%20as%20a%20whole.)
 
-![alt text](image.jpg)
+<ins> **Our findings** </ins>
+
+![Performance Analysis graph](image.jpg)
+
+What does this graph show and how do we know that. What can a beginner trader glean from this graph?
+
+### Returns
+
+**Why is Returns important?**
+
+Answer (TBC with group)
+
+<ins> **Our findings** </ins>
+
+![Returns graph](image.jpg)
+
+What does this graph show and how do we know that. What can a beginner trader glean from this graph?
+
+### Volatility Matrix
+
+**Why is Volatility Matrix important?**
+
+Answer (TBC with group)
+
+<ins> **Our findings** </ins>
+
+![Volatility Matrix graph](image.jpg)
 
 What does this graph show and how do we know that. What can a beginner trader glean from this graph?
 
@@ -75,54 +101,36 @@ What does this graph show and how do we know that. What can a beginner trader gl
 
 **Why is Sharpe Ratio important?**
 
-Answer
+One of the most commonly used and talked about risk measures in investing is the Sharpe Ratio. Unlike the Coefficient of Variation, which measures the risk per unit of return, the Sharpe Ratio tells an analyst the return per unit of risk. In other words, how much extra return you will receive per unit of risk that you take on.[<sup>13</sup>](https://medium.datadriveninvestor.com/the-sharpe-ratio-with-python-from-scratch-fbb1d5e490b9#:~:text=Evaluating%20a%20Stock's%20Risk%20with%20Python&text=Any%20Sharpe%20Ratio%20above%201.00,3.00%20is%20considered%20very%20good.)
 
-![alt text](image.jpg)
+<ins> **Our findings** </ins>
 
-What does this graph show and how do we know that. What can a beginner trader glean from this graph?
-
-### Return and Volatility Matrix
-
-**Why is Return and Volatility Matrix?**
-
-Answer
-
-**Our findings**
-
-![alt text](image.jpg)
+![Sharp Ratio graph](image.jpg)
 
 What does this graph show and how do we know that. What can a beginner trader glean from this graph?
 
 ### Risk Analysis
+
 **Why is Risk Analysis important?**
 
-Answer
+Answer (content TBC with group)
 
-**Our findings**
+<ins> **Our findings** </ins>
 
-![alt text](image.jpg)
-
-What does this graph show and how do we know that. What can a beginner trader glean from this graph?
-
-### Sharpe Ratio
-**Why is Sharpe Ratio important?**
-
-Answer
-
-**Our findings**
-
-![alt text](image.jpg)
+![Risk Analysis graph](image.jpg)
 
 What does this graph show and how do we know that. What can a beginner trader glean from this graph?
+
 
 ### Rolling Statistics
+
 **Why is Rolling Statistics important?**
 
-Answer
+Answer (TBC)
 
-**Our findings**
+<ins> **Our findings** </ins>
 
-![alt text](image.jpg)
+![Rolling Statistics graph](image.jpg)
 
 What does this graph show and how do we know that. What can a beginner trader glean from this graph?
 
@@ -130,9 +138,10 @@ What does this graph show and how do we know that. What can a beginner trader gl
 
 **Why is Exponentially Weighted Average important?**
 
-Answer
+The Exponentially Weighted Moving Average (EWMA) is a quantitative or statistical measure used to model or describe a time series. The EWMA is widely used in finance, the main applications being technical analysis and volatility modeling. The moving average is designed as such that older observations are given lower weights. The weights fall exponentially as the data point gets older – hence the name exponentially weighted.[<sup>14</sup>](https://corporatefinanceinstitute.com/resources/knowledge/trading-investing/exponentially-weighted-moving-average-ewma/)
 
-**Our findings**
+
+<ins> **Our findings** </ins>
 
 ![alt text](image.jpg)
 
@@ -146,25 +155,25 @@ Gather the points that answered "What can a beginner trafer glean from this?". D
 
 ### Difficulties
 
-![alt text](image.jpg)
+![UNIX Issue](UNIX issue.JPG)
 
-Description of the issue we met. Did we find a solution and what was it?
+- <ins> Coingecko provided dates in UNIX </ins> - As we began cleaning our data for our cryptocurrency samples, we noticed that dates were a long string of unknoen numbers. We soon found out it was UNIX datetime format. We googled for example coding and found that the reason we were having difficulty was because the UNIX format was going down to the millisecond and not second as most of the sample code online was suggesting.
 
-![alt text](image.jpg)
+- <ins> Some Cryptocurrencies weren't old enough </ins> - As we began cleaning our data, we noticed that LUNA and SOL were not at least 5 years old. As most of our analysis looked at how our sample had faired over a 5 year period, we needed to change these two cryptocurrencies out for older ones. We chose LTC and XRP. We then had to extend our data cleaning time.
 
-Description of the issue we met. Did we find a solution and what was it?
 
-![alt text](image.jpg)
-
-Description of the issue we met. Did we find a solution and what was it?
 
 ![alt text](image.jpg)
 
-Description of the issue we met. Did we find a solution and what was it?
+- Description of the issue we met. Did we find a solution and what was it?
 
 ![alt text](image.jpg)
 
-Description of the issue we met. Did we find a solution and what was it?
+- Description of the issue we met. Did we find a solution and what was it?
+
+![alt text](image.jpg)
+
+- Description of the issue we met. Did we find a solution and what was it?
 
 ### Future opportunities
 
@@ -187,3 +196,6 @@ Description of the issue we met. Did we find a solution and what was it?
 - [<sup>9</sup> https://en.wikipedia.org/wiki/Google](https://en.wikipedia.org/wiki/Google)
 - [<sup>10</sup> https://techmonitor.ai/what-is/what-is-tesla-4939228](https://techmonitor.ai/what-is/what-is-tesla-4939228)
 - [<sup>11</sup> https://en.wikipedia.org/wiki/Amazon_(company)](https://en.wikipedia.org/wiki/Amazon_(company))
+- [<sup>12</sup> https://blog.skillsuccess.com/why-is-stock-market-analysis-so-important/#:~:text=Investors%20rely%20on%20stock%20analysis,stock%20market%20as%20a%20whole.](https://blog.skillsuccess.com/why-is-stock-market-analysis-so-important/#:~:text=Investors%20rely%20on%20stock%20analysis,stock%20market%20as%20a%20whole.)
+- [<sup>13</sup> https://medium.datadriveninvestor.com/the-sharpe-ratio-with-python-from-scratch-fbb1d5e490b9#:~:text=Evaluating%20a%20Stock's%20Risk%20with%20Python&text=Any%20Sharpe%20Ratio%20above%201.00,3.00%20is%20considered%20very%20good.](https://medium.datadriveninvestor.com/the-sharpe-ratio-with-python-from-scratch-fbb1d5e490b9#:~:text=Evaluating%20a%20Stock's%20Risk%20with%20Python&text=Any%20Sharpe%20Ratio%20above%201.00,3.00%20is%20considered%20very%20good.)
+- [<sup>14</sup> https://corporatefinanceinstitute.com/resources/knowledge/trading-investing/exponentially-weighted-moving-average-ewma/](https://corporatefinanceinstitute.com/resources/knowledge/trading-investing/exponentially-weighted-moving-average-ewma/)
