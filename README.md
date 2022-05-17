@@ -1,4 +1,4 @@
-# Project-1 **Put the project name here**
+# Project-1 Technical Analysis - Stocks vs Cryptocurrencies
 **FinTech Group Assessment 1**
 
 Raelyn Sangil (L)
@@ -15,13 +15,13 @@ Ramon Lee
 
 This project provides an analysis of 5 Crypto Currencies and 5 Stocks, all high in market values as of 05/05/2022. This analysis will be useful to help beginner traders. It will highlight different elements to consider when performing due diligence prior to purchasing on the Trade Market. 
 
-The project aims to help begginer investors **save** money and **make** money.
+The project aims to help begginer investors *save* money and *make* money.
 
 ### Data Sources
 
 **We chose the 5 High Market Price Cryptocurrencies of 05/05/2022.**
 
-Cryptocurrency is a digital currency that has been designed to work a medium of exchange through a computer network that is not reliant through on any central authority (government or bank) to uphold and maintain it. (https://en.wikipedia.org/wiki/Cryptocurrency)
+Cryptocurrency is a digital currency that has been designed to work a medium of exchange through a computer network that is not reliant through on any central authority (government or bank) to uphold and maintain it.<sup>1</sup>
 
 Bitcoin *BTC* - Created and released by Satoshi Nakomoto, this cryptocurrency has a limited supply of 21 million and works on a blockchain ledger. It is easily moved from one exchange account or digital wallet to another and easily transferred from one user to another or merchant. Many experts believe that these factors give the Bitcoin the value that it currently has today.
 
