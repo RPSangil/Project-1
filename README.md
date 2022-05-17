@@ -20,7 +20,7 @@ The project aims to help beginner investors *save* money and *make* money.
 
 [Source: https://www.coingecko.com/en/api/](https://www.coingecko.com/en/api/)
 
-Cryptocurrency is a digital currency that has been designed to work a medium of exchange through a computer network that is not reliant through on any central authority (government or bank) to uphold and maintain it.[<sup>1</sup>](https://en.wikipedia.org/wiki/Cryptocurrency)
+Cryptocurrency is a digital currency that has been designed to work a medium of exchange through a computer network that is not reliant through on any central authority (government or bank) to uphold and maintain it.[<sup>1</sup>](## References)
 
 <ins> Bitcoin *BTC* </ins> - Created and released by Satoshi Nakomoto, this cryptocurrency has a limited supply of 21 million and works on a blockchain ledger. It is easily moved from one exchange account or digital wallet to another and easily transferred from one user to another or merchant. Many experts believe that these factors give the Bitcoin the value that it currently has today.[<sup>2</sup>](https://time.com/nextadvisor/investing/cryptocurrency/why-do-bitcoins-have-value/#:~:text=Limited%20supply%3A%20Bitcoin's%20maximum%20supply,one%20can%20counterfeit%20a%20Bitcoin.)
 
