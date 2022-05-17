@@ -12,7 +12,7 @@
 
 This project provides an analysis of 5 Crypto Currencies and 5 Stocks, all high in market values as of 05/05/2022. This analysis will be useful to help beginner traders. It will highlight different elements to consider when performing due diligence prior to purchasing on the Trade Market. 
 
-The project aims to help begginer investors *save* money and *make* money.
+The project aims to help beginner investors *save* money and *make* money.
 
 ### Our Sample
 
