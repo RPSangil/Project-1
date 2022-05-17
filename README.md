@@ -28,7 +28,7 @@ Cryptocurrency is a digital currency that has been designed to work a medium of 
 
 <ins> Litecoin *LTC* </ins> - Litecoin was developed to be a compliment to Bitcoin. Satoshi Nakomoto saw that a major drawback of Bitcoin would be the speed in which it adds blocks. Litecoin has improved speed (2.5 minutes per block on average) and accessibility when compared to Bitcoin. However, this currency has a higher limited supply of 84 million. Litecoin was made to be a more practical and scalable medium than Bitcoin. It is now one of the most recognized, trusted and used blockchain-based payment networks in the world.[<sup>4</sup>](https://www.gemini.com/cryptopedia/litecoin-vs-bitcoin-blockchain#section-litecoin-is-a-complement-to-bitcoin-not-a-competitor)
 
-<ins> Ripple *XRP* </ins> - Ripple is a technology that acts as both a cryptocurrency and a digital payment network for financial transactions. It was first released in 2012 and was co-founded by Chris Larsen and Jed McCaleb. Ripple's main process is a payment settlement asset exchange and remittance system, similar to the SWIFT system for international money and security transfers, which is used by banks and financial middlemen dealing across currencies.[<sup>5</sup> (https://www.investopedia.com/terms/r/ripple-cryptocurrency.asp)
+<ins> Ripple *XRP* </ins> - Ripple is a technology that acts as both a cryptocurrency and a digital payment network for financial transactions. It was first released in 2012 and was co-founded by Chris Larsen and Jed McCaleb. Ripple's main process is a payment settlement asset exchange and remittance system, similar to the SWIFT system for international money and security transfers, which is used by banks and financial middlemen dealing across currencies.[<sup>5</sup>] (https://www.investopedia.com/terms/r/ripple-cryptocurrency.asp)
 
 <ins> Cardano *ADA* </ins> - Other than being a cryptocurrency, every ADA holder also holds a stake in the Cardano network. ADA stored in a wallet can be delegated to a stake pool to earn rewards (to participate in the successful running of the network ) or pledged to a stake pool to increase the pool's likelihood of receiving rewards. In time, ADA will also be usable for a variety of applications and services on the Cardano platform. [<sup>6</sup>](https://cardano.org/what-is-ada/#:~:text=Ada%20is%20a%20digital%20currency,recorded%20on%20the%20Cardano%20blockchain.) 
 
@@ -50,18 +50,19 @@ Cryptocurrency is a digital currency that has been designed to work a medium of 
 
 ### Dependancies
 
-Name of technology used - what was it used for?
+Name of Library - what was it used for? TBC with Kurt
 
-Name of technology used - what was it used for?
+Name of Library - what was it used for? TBC with Kurt
 
-Name of technology used - what was it used for?
+Name of Library - what was it used for? TBC with Kurt
 
-Name of technology used - what was it used for?
+Name of Library - what was it used for? TBC with Kurt
 
-Name of technology used - what was it used for?
+Name of Library - what was it used for? TBC with Kurt
 
 ## Analysis
-### Performance Analysis
+
+### <ins> Performance Analysis </ins>
 
 **Why is Performance Analysis important?**
 
@@ -73,7 +74,7 @@ Stock market analysis helps the investors to identify whether the worth of secur
 
 What does this graph show and how do we know that. What can a beginner trader glean from this graph?
 
-### Returns
+### <ins> Returns</ins>
 
 **Why is Returns important?**
 
@@ -85,7 +86,7 @@ Answer (TBC with group)
 
 What does this graph show and how do we know that. What can a beginner trader glean from this graph?
 
-### Volatility Matrix
+### <ins> Volatility Matrix</ins>
 
 **Why is Volatility Matrix important?**
 
@@ -97,7 +98,7 @@ Answer (TBC with group)
 
 What does this graph show and how do we know that. What can a beginner trader glean from this graph?
 
-### Sharpe Ratio
+### <ins> Sharpe Ratio</ins>
 
 **Why is Sharpe Ratio important?**
 
@@ -109,7 +110,7 @@ One of the most commonly used and talked about risk measures in investing is the
 
 What does this graph show and how do we know that. What can a beginner trader glean from this graph?
 
-### Risk Analysis
+### <ins> Risk Analysis</ins>
 
 **Why is Risk Analysis important?**
 
@@ -122,7 +123,7 @@ Answer (content TBC with group)
 What does this graph show and how do we know that. What can a beginner trader glean from this graph?
 
 
-### Rolling Statistics
+### <ins> Rolling Statistics</ins>
 
 **Why is Rolling Statistics important?**
 
@@ -134,7 +135,7 @@ Answer (TBC)
 
 What does this graph show and how do we know that. What can a beginner trader glean from this graph?
 
-### Exponentially Weighted Average
+### <ins> Exponentially Weighted Average </ins>
 
 **Why is Exponentially Weighted Average important?**
 
@@ -161,8 +162,6 @@ Gather the points that answered "What can a beginner trafer glean from this?". D
 
 - <ins> Some Cryptocurrencies weren't old enough </ins> - As we began cleaning our data, we noticed that LUNA and SOL were not at least 5 years old. As most of our analysis looked at how our sample had faired over a 5 year period, we needed to change these two cryptocurrencies out for older ones. We chose LTC and XRP. We then had to extend our data cleaning time.
 
-
-
 ![alt text](image.jpg)
 
 - Description of the issue we met. Did we find a solution and what was it?
@@ -177,9 +176,9 @@ Gather the points that answered "What can a beginner trafer glean from this?". D
 
 ### Future opportunities
 
-1. Idea 1 - Why would this be good? Why couldn't we do this during the project?
-2. Idea 2 - Why would this be good? Why couldn't we do this during the project?
-3. Idea 3 - Why would this be good? Why couldn't we do this during the project?
+1. **Adjust code so that a user could review any item on the Trading Market** - This would allow the project to go from an analysis to a product or tool. We were unable to make this change due to time constraints.
+2. **Analyse how our sample faired on a Day by Day basis** - This would allow our project to introduce the concept of Day Trading to our target audience and analyse our sample on another level. We were unable to make this change due to time constraints.
+3. **Analyse how our sample was affected by Twitter comments** - This would have been a great example of how social media can affect the trading market. Part of our sample, Tesla would have been great to analyse in relation to Elon Musk tweets. We were unable to make this change due to time constraints and coding skills (data mining).
 4. Idea 4 - Why would this be good? Why couldn't we do this during the project?
 5. Idea 5 - Why would this be good? Why couldn't we do this during the project?
 
