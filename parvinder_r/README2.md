@@ -22,7 +22,7 @@ Raelyn, has kept aside $20,0000 to be invested over a period of time.  She asked
 ### Raelyn wants to be an Investor and hence doing her due deligence, rather than being a 'Speculator' or 'Gambler' in the space
 
 #### What do you want to be?
-!(https://user-images.githubusercontent.com/85688247/159845853-8c0046a6-47da-4c27-b13b-463b84f4ab7b.jpg)
+(https://user-images.githubusercontent.com/85688247/159845853-8c0046a6-47da-4c27-b13b-463b84f4ab7b.jpg)
 
 
 ## Disclaimer:
