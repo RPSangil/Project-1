@@ -1,4 +1,4 @@
-# Project-1 Technical Analysis - Stocks vs Cryptocurrencies
+# Project-1 Technical Analysis - Stocks vs Crypto
 **FinTech Group Assessment 1**
 
 - Raelyn Sangil (L)
@@ -10,30 +10,30 @@
 
 ### The Scope
 
-This project provides an analysis of 5 Crypto Currencies and 5 Stocks, all high in market values as of 05/05/2022. This analysis will be useful to help beginner traders. It will highlight different elements to consider when performing due diligence prior to purchasing on the Trade Market. 
+Cryptocurrency (henceforth referred to as crypto) is a digital currency that has been designed to work a medium of exchange through a computer network that is not reliant through on any central authority (government or bank) to uphold and maintain it. [<sup>1</sup>](#reference-list) 
+
+This project provides an analysis of 5 Crypto and 5 Stocks, all high in market values as of 05/05/2022. This analysis will be useful to help beginner traders. It will highlight different elements to consider when performing due diligence prior to purchasing on the Stock Market. 
 
 The project aims to help beginner investors *save* money and *make* money.
 
 ### Our Sample
 
-**We chose the 5 High Market Price Cryptocurrencies of 05/05/2022.**
+<ins> Crypto Sample - We chose the 5 High Market Price Crypto of 05/05/2022. </ins>
 
 [Source: https://www.coingecko.com/en/api/](https://www.coingecko.com/en/api/)
 
-Cryptocurrency is a digital currency that has been designed to work a medium of exchange through a computer network that is not reliant through on any central authority (government or bank) to uphold and maintain it. [<sup>1</sup>](#reference-list) 
-
-<ins> Bitcoin *BTC* </ins> - Created and released by Satoshi Nakomoto, this cryptocurrency has a limited supply of 21 million and works on a blockchain ledger. It is easily moved from one exchange account or digital wallet to another and easily transferred from one user to another or merchant. Many experts believe that these factors give the Bitcoin the value that it currently has today.[<sup>2</sup>](#reference-list)
+<ins> Bitcoin *BTC* </ins> - Created and released by Satoshi Nakomoto, this crypto has a limited supply of 21 million and works on a blockchain ledger. It is easily moved from one exchange account or digital wallet to another and easily transferred from one user to another or merchant. Many experts believe that these factors give the Bitcoin the value that it currently has today.[<sup>2</sup>](#reference-list)
 
 <ins> Ethereum *ETH* </ins> - Via blockchain technology, Ethereum is the largest and most well-established, open-ended decentralized software platform. It enables the development of smart contracts and decentralized applications to be built and run without any downtime, fraud, control, or interference from a third party. Ether (ETH) is the fuel used to run commands in the Ethereum platform and is used by developers to build and run applications on the platform.[<sup>3</sup>](#reference-list)
 
 <ins> Litecoin *LTC* </ins> - Litecoin was developed to be a compliment to Bitcoin. Satoshi Nakomoto saw that a major drawback of Bitcoin would be the speed in which it adds blocks. Litecoin has improved speed (2.5 minutes per block on average) and accessibility when compared to Bitcoin. However, this currency has a higher limited supply of 84 million. Litecoin was made to be a more practical and scalable medium than Bitcoin. It is now one of the most recognized, trusted and used blockchain-based payment networks in the world.[<sup>4</sup>](#reference-list)
 
-<ins> Ripple *XRP* </ins> - Ripple is a technology that acts as both a cryptocurrency and a digital payment network for financial transactions. It was first released in 2012 and was co-founded by Chris Larsen and Jed McCaleb. Ripple's main process is a payment settlement asset exchange and remittance system, similar to the SWIFT system for international money and security transfers, which is used by banks and financial middlemen dealing across currencies.[<sup>5</sup>](#reference-list)
+<ins> Ripple *XRP* </ins> - Ripple is a technology that acts as both a crypto and a digital payment network for financial transactions. It was first released in 2012 and was co-founded by Chris Larsen and Jed McCaleb. Ripple's main process is a payment settlement asset exchange and remittance system, similar to the SWIFT system for international money and security transfers, which is used by banks and financial middlemen dealing across currencies.[<sup>5</sup>](#reference-list)
 
-<ins> Cardano *ADA* </ins> - Other than being a cryptocurrency, every ADA holder also holds a stake in the Cardano network. ADA stored in a wallet can be delegated to a stake pool to earn rewards (to participate in the successful running of the network ) or pledged to a stake pool to increase the pool's likelihood of receiving rewards. In time, ADA will also be usable for a variety of applications and services on the Cardano platform. [<sup>6</sup>](#reference-list) 
+<ins> Cardano *ADA* </ins> - Other than being a crypto, every ADA holder also holds a stake in the Cardano network. ADA stored in a wallet can be delegated to a stake pool to earn rewards (to participate in the successful running of the network ) or pledged to a stake pool to increase the pool's likelihood of receiving rewards. In time, ADA will also be usable for a variety of applications and services on the Cardano platform. [<sup>6</sup>](#reference-list) 
 
 
-**We chose the 5 High Market Price Stocks of 05/05/2022.**
+<ins> Stock Sample - We chose the 5 High Market Price Stocks of 05/05/2022. </ins>
 
 [Source: https://data.nasdaq.com/tools/api](https://data.nasdaq.com/tools/api)
 
@@ -50,107 +50,160 @@ Cryptocurrency is a digital currency that has been designed to work a medium of 
 
 ### Dependancies
 
-Name of Library - what was it used for? TBC with Kurt
-
-Name of Library - what was it used for? TBC with Kurt
-
-Name of Library - what was it used for? TBC with Kurt
-
-Name of Library - what was it used for? TBC with Kurt
-
-Name of Library - what was it used for? TBC with Kurt
+- Basic Libraries - os, requests, pandas, dotenv numpy
+- Libraries for Pulling Data - alpaca_trade_api, csv, json, datetime
+- Libraries for Visualization - plotly.express, hvplot.pandas, matplotlib.pyplot, panel, pn.extension('plotly'), panel.interact, plotly.tools, seaborn
+- Libraries for Data Analysis - MCForecastTools
+- New Libraries used - yfinance, warnings, warnings.filterwarnings("ignore")
 
 ## Analysis
 
-### <ins> Performance Analysis </ins>
+> *"There's one golden investment rule that you should always keep in mind: Never invest money that you can't afford to lose. The Market can be rewarding, but it does test you.  Always Do Your Own Research - DYOR"*
 
-**Why is Performance Analysis important?**
+Stock Market analysis helps the investors to identify whether the worth of security is valued in the market. If a stock performs poorly, an investor will make a loss. If a stock performs well, an investor can make a profit.[<sup>12</sup>](#reference-list)
 
-Stock market analysis helps the investors to identify whether the worth of security is valued in the market. If a stock performs poorly, an investor will make a loss. If a stock performs well, an investor can make a profit.[<sup>12</sup>](#reference-list)
+There are many ways to complete this due diligence. Reviewing past performance, checking correlations and analysing risk are just a few to mention.
 
-<ins> **Our findings** </ins>
+Below are the finds of our analysis.
 
-![Performance Analysis graph](image.jpg)
+### Performance of Crypto over the last 5 years
 
-What does this graph show and how do we know that. What can a beginner trader glean from this graph?
+<ins> Bitcoin *BTC* </ins>
 
-### <ins> Returns</ins>
+![Performance of BTC over the last 5 years](https://github.com/RaelynSangil/Project-1/blob/821c1fc0b6e90282845b0d9de267b96740476487/Graphs/Performance%20of%20BTC%20over%20the%20last%205%20years.jpg)
 
-**Why is Returns important?**
+<ins> Ethereum *ETH* </ins>
 
-Answer (TBC with group)
+![Performance of ETH over the last 5 years](https://github.com/RaelynSangil/Project-1/blob/821c1fc0b6e90282845b0d9de267b96740476487/Graphs/Performance%20of%20ETH%20over%20the%20last%205%20years.jpg)
 
-<ins> **Our findings** </ins>
+<ins> Litecoin *LTC* </ins>
 
-![Returns graph](image.jpg)
+![Performance of LTC over the last 5 years](https://github.com/RaelynSangil/Project-1/blob/821c1fc0b6e90282845b0d9de267b96740476487/Graphs/Performance%20of%20LTC%20over%20the%20last%205%20years.jpg)
 
-What does this graph show and how do we know that. What can a beginner trader glean from this graph?
+<ins> Ripple *XRP* </ins> 
 
-### <ins> Volatility Matrix</ins>
+![Performance of XRP over the last 5 years](https://github.com/RaelynSangil/Project-1/blob/821c1fc0b6e90282845b0d9de267b96740476487/Graphs/Performance%20of%20XRP%20over%20the%20last%205%20years.jpg)
 
-**Why is Volatility Matrix important?**
+<ins> Cardano *ADA* </ins>
 
-Answer (TBC with group)
+![Performance of ADA over the last 5 years](https://github.com/RaelynSangil/Project-1/blob/821c1fc0b6e90282845b0d9de267b96740476487/Graphs/Performance%20of%20ADA%20over%20the%20last%205%20years.jpg)
 
-<ins> **Our findings** </ins>
+### Performance of Stocks over the last 5 years
 
-![Volatility Matrix graph](image.jpg)
+<ins> Apple *AAPL* </ins>
 
-What does this graph show and how do we know that. What can a beginner trader glean from this graph?
+![Performance of AAPL over the last 5 years](https://github.com/RaelynSangil/Project-1/blob/821c1fc0b6e90282845b0d9de267b96740476487/Graphs/Performance%20of%20AAPL%20over%20the%20last%205%20years.jpg)
 
-### <ins> Sharpe Ratio</ins>
+<ins> Microsoft *MSFT* </ins>
 
-**Why is Sharpe Ratio important?**
+![Performance of MSFT over the last 5 years](https://github.com/RaelynSangil/Project-1/blob/821c1fc0b6e90282845b0d9de267b96740476487/Graphs/Performance%20of%20MSFT%20over%20the%20last%205%20years.jpg)
 
-One of the most commonly used and talked about risk measures in investing is the Sharpe Ratio. Unlike the Coefficient of Variation, which measures the risk per unit of return, the Sharpe Ratio tells an analyst the return per unit of risk. In other words, how much extra return you will receive per unit of risk that you take on.[<sup>13</sup>](#reference-list)
+<ins> Google *GOOGL* </ins>
 
-<ins> **Our findings** </ins>
+![Performance of GOOGL over the last 5 years](https://github.com/RaelynSangil/Project-1/blob/821c1fc0b6e90282845b0d9de267b96740476487/Graphs/Performance%20of%20GOOGL%20over%20the%20last%205%20years.jpg)
 
-![Sharp Ratio graph](image.jpg)
+<ins> Tesla *TSLA* </ins>
 
-What does this graph show and how do we know that. What can a beginner trader glean from this graph?
+![Performance of TSLA over the last 5 years](https://github.com/RaelynSangil/Project-1/blob/821c1fc0b6e90282845b0d9de267b96740476487/Graphs/Performance%20of%20TSLA%20over%20the%20last%205%20years.jpg)
 
-### <ins> Risk Analysis</ins>
+<ins> Amazon *AMZN* </ins>
 
-**Why is Risk Analysis important?**
+![Performance of AMZN over the last 5 years](https://github.com/RaelynSangil/Project-1/blob/821c1fc0b6e90282845b0d9de267b96740476487/Graphs/Performance%20of%20AMZN%20over%20the%20last%205%20years.jpg)
 
-Answer (content TBC with group)
+### Profit of Each Investment after 5 years
 
-<ins> **Our findings** </ins>
+![Profit of Each investment After 5 years](https://github.com/RaelynSangil/Project-1/blob/821c1fc0b6e90282845b0d9de267b96740476487/Graphs/Profit%20of%20Each%20investment%20After%205%20years.jpg)
 
-![Risk Analysis graph](image.jpg)
+### Daily Returns - Crypto
 
-What does this graph show and how do we know that. What can a beginner trader glean from this graph?
+![Daily Returns - Crypto](https://github.com/RaelynSangil/Project-1/blob/821c1fc0b6e90282845b0d9de267b96740476487/Graphs/Daily%20Returns%20-%20Crypto.jpg)
 
+### Daily Returns - Stocks
 
-### <ins> Rolling Statistics</ins>
+![Daily Returns - Stocks](https://github.com/RaelynSangil/Project-1/blob/821c1fc0b6e90282845b0d9de267b96740476487/Graphs/Daily%20Returns%20-%20Stocks.jpg)
 
-**Why is Rolling Statistics important?**
+### Return after 5 years with 30 days as Weighted Average
 
-Answer (TBC)
+![Return after 5 years with 30 days as Weighted Average](https://github.com/RaelynSangil/Project-1/blob/821c1fc0b6e90282845b0d9de267b96740476487/Graphs/Return%20after%205%20years%20with%2030%20days%20as%20Weighted%20Average.jpg)
 
-<ins> **Our findings** </ins>
+### Return after 6 years
 
-![Rolling Statistics graph](image.jpg)
+![Return after 6 years](https://github.com/RaelynSangil/Project-1/blob/821c1fc0b6e90282845b0d9de267b96740476487/Graphs/Return%20after%206%20years.jpg)
 
-What does this graph show and how do we know that. What can a beginner trader glean from this graph?
+### Correlation Heatmap
 
-### <ins> Exponentially Weighted Average </ins>
+![Correlation Heatmap](https://github.com/RaelynSangil/Project-1/blob/821c1fc0b6e90282845b0d9de267b96740476487/Graphs/Correlation%20Heatmap.jpg)
 
-**Why is Exponentially Weighted Average important?**
+### Monte Carlo
 
-The Exponentially Weighted Moving Average (EWMA) is a quantitative or statistical measure used to model or describe a time series. The EWMA is widely used in finance, the main applications being technical analysis and volatility modeling. The moving average is designed as such that older observations are given lower weights. The weights fall exponentially as the data point gets older – hence the name exponentially weighted.[<sup>14</sup>](#reference-list)
+![Monte Carlo 1a](https://github.com/RaelynSangil/Project-1/blob/821c1fc0b6e90282845b0d9de267b96740476487/Graphs/Monte%20Carlo%201a.jpg)
+![Monte Carlo 1b](https://github.com/RaelynSangil/Project-1/blob/821c1fc0b6e90282845b0d9de267b96740476487/Graphs/Monte%20Carlo%201b.jpg)
+![Monte Carlo 2a](https://github.com/RaelynSangil/Project-1/blob/821c1fc0b6e90282845b0d9de267b96740476487/Graphs/Monte%20Carlo%202a.jpg)
+![Monte Carlo 2b](https://github.com/RaelynSangil/Project-1/blob/821c1fc0b6e90282845b0d9de267b96740476487/Graphs/Monte%20Carlo%202b.jpg)
 
+### Sharpe Ratios
 
-<ins> **Our findings** </ins>
+![Sharpe Ratios](https://github.com/RaelynSangil/Project-1/blob/821c1fc0b6e90282845b0d9de267b96740476487/Graphs/Sharpe%20Ratios.jpg)
 
-![alt text](image.jpg)
+### Volatility
 
-What does this graph show and how do we know that. What can a beginner trader glean from this graph?
+![Volatility to Blackswan event Covid-19](https://github.com/RaelynSangil/Project-1/blob/821c1fc0b6e90282845b0d9de267b96740476487/Graphs/Volatility%20to%20Blackswan%20event%20Covid-19.jpg)
+![Volatility to Market Uncertainty](https://github.com/RaelynSangil/Project-1/blob/821c1fc0b6e90282845b0d9de267b96740476487/Graphs/Volatility%20to%20Market%20Uncertainty.jpg)
+
+### Blackswan Event - Covid-19
+
+<ins>How Covid-19 Affected the Crypto and Stock Market in context</ins>
+
+![How Covid-19 Affected the Crypto and Stock Market in context](https://github.com/RaelynSangil/Project-1/blob/821c1fc0b6e90282845b0d9de267b96740476487/Graphs/How%20Covid-19%20Affected%20the%20Crypto%20and%20Stock%20Market%20in%20context.jpg)
+
+<ins>How Covid-19 Affected the Crypto and Stock Market zoom</ins>
+
+![How Covid-19 Affected the Crypto and Stock Market zoom](https://github.com/RaelynSangil/Project-1/blob/821c1fc0b6e90282845b0d9de267b96740476487/Graphs/How%20Covid-19%20Affected%20the%20Crypto%20and%20Stock%20Market%20zoom.jpg)
+
+### Blackswan Event - Russia vs. Ukraine War
+
+<ins>How The Russia vs. Ukraine War Affected the Crypto and Stock Market in context</ins>
+
+![How The Russia vs. Ukraine War Affected the Crypto and Stock Market in context](https://github.com/RaelynSangil/Project-1/blob/821c1fc0b6e90282845b0d9de267b96740476487/Graphs/How%20The%20Russia%20vs.%20Ukraine%20War%20Affected%20the%20Crypto%20and%20Stock%20Market%20in%20context.jpg)
+
+<ins>How The Russia vs. Ukraine War Affected the Crypto and Stock Market zoom</ins>
+
+![How The Russia vs. Ukraine War Affected the Crypto and Stock Market zoom](https://github.com/RaelynSangil/Project-1/blob/821c1fc0b6e90282845b0d9de267b96740476487/Graphs/How%20The%20Russia%20vs.%20Ukraine%20War%20Affected%20the%20Crypto%20and%20Stock%20Market%20zoom.jpg)
+
+### Weighted Portfolio Comparisons
+
+<ins>Scenario 1 - Portfoloio: 50% Crypto and 50% Stocks</ins>
+
+![Portfoloio 50 Crypto and 50 Stocks](https://github.com/RaelynSangil/Project-1/blob/821c1fc0b6e90282845b0d9de267b96740476487/Graphs/Portfoloio%2050%20Crypto%20and%2050%20Stocks.jpg)
+
+<ins>Scenario 2 - Portfoloio: 100% Crypto</ins>
+
+![Portfoloio 100 Crypto](https://github.com/RaelynSangil/Project-1/blob/821c1fc0b6e90282845b0d9de267b96740476487/Graphs/Portfoloio%20100%20Crypto.jpg)
+
+<ins>Scenario 3 - Portfoloio: 100% Stocks</ins>
+
+![Portfoloio 100 Stocks](https://github.com/RaelynSangil/Project-1/blob/821c1fc0b6e90282845b0d9de267b96740476487/Graphs/Portfoloio%20100%20Stocks.jpg)
+
+<ins>Scenario 4 - Portfoloio: 40% Crypto and 60% Stocks</ins>
+
+![Portfoloio 40 Crypto and 60 Stocks](https://github.com/RaelynSangil/Project-1/blob/821c1fc0b6e90282845b0d9de267b96740476487/Graphs/Portfoloio%2040%20Crypto%20and%2060%20Stocks.jpg)
+
+<ins>Scenario 5 - Portfoloio: 60% Crypto and 40% Stocks</ins>
+
+![Portfoloio 60 Crypto and 40 Stocks](https://github.com/RaelynSangil/Project-1/blob/821c1fc0b6e90282845b0d9de267b96740476487/Graphs/Portfoloio%2060%20Crypto%20and%2040%20Stocks.jpg)
+
+<ins>Portfolio Distribution Analysis - Overlay</ins>
+
+![Portfolio Distribution Analysis - Overlay](https://github.com/RaelynSangil/Project-1/blob/821c1fc0b6e90282845b0d9de267b96740476487/Graphs/Portfolio%20Distribution%20Analysis%20-%20Overlay.jpg)
 
 ## Conclusion of Analysis
 
-Gather the points that answered "What can a beginner trafer glean from this?". Draw a conclusion.
+- We found that, of the crypto, BTC has the maxiumum standard deviation and GOOGL has the least over the last 5 years.
+- We found that, of the stocks, XRP has the maxiumum standard deviation and AAPL has the least over the last 5 years.
+- Our rolling standard deviation indicated volatility in the sample.
+- We foudn that crypto had a consistently higher correlation with all the other stocks over the last 4 years.
+
+Our portfolio analysis found that the scenario that most efficiently distributed investment funds was to distribute the allocated funds at a 40% Crypto and 60% Stocks split.
 
 ## Room for Improvement
 
@@ -158,29 +211,15 @@ Gather the points that answered "What can a beginner trafer glean from this?". D
 
 ![UNIX Issue](https://github.com/RaelynSangil/Project-1/blob/a0c818ba114b35578dda984b6c9f57023eeb7448/UNIX%20issue.JPG)
 
-- <ins> Coingecko provided dates in UNIX </ins> - As we began cleaning our data for our cryptocurrency samples, we noticed that dates were a long string of unknoen numbers. We soon found out it was UNIX datetime format. We googled for example coding and found that the reason we were having difficulty was because the UNIX format was going down to the millisecond and not second as most of the sample code online was suggesting.
+- <ins> Coingecko provided dates in UNIX </ins> - As we began cleaning our data for our crypto samples, we noticed that dates were a long string of unknoen numbers. We soon found out it was UNIX datetime format. We googled for example coding and found that the reason we were having difficulty was because the UNIX format was going down to the millisecond and not second as most of the sample code online was suggesting.
 
-- <ins> Some Cryptocurrencies weren't old enough </ins> - As we began cleaning our data, we noticed that LUNA and SOL were not at least 5 years old. As most of our analysis looked at how our sample had faired over a 5 year period, we needed to change these two cryptocurrencies out for older ones. We chose LTC and XRP. We then had to extend our data cleaning time.
-
-![alt text](image.jpg)
-
-- Description of the issue we met. Did we find a solution and what was it?
-
-![alt text](image.jpg)
-
-- Description of the issue we met. Did we find a solution and what was it?
-
-![alt text](image.jpg)
-
-- Description of the issue we met. Did we find a solution and what was it?
+- <ins> Some crypto weren't old enough </ins> - As we began cleaning our data, we noticed that LUNA and SOL were not at least 5 years old. As most of our analysis looked at how our sample had faired over a 5 year period, we needed to change these two crypto out for older ones. We chose LTC and XRP. We then had to extend our data cleaning time.
 
 ### Future opportunities
 
-1. **Adjust code so that a user could review any item on the Trading Market** - This would allow the project to go from an analysis to a product or tool. We were unable to make this change due to time constraints.
+1. **Adjust code so that a user could review any item on the Stock Market** - This would allow the project to go from an analysis to a product or tool. We were unable to make this change due to time constraints.
 2. **Analyse how our sample faired on a Day by Day basis** - This would allow our project to introduce the concept of Day Trading to our target audience and analyse our sample on another level. We were unable to make this change due to time constraints.
-3. **Analyse how our sample was affected by Twitter comments** - This would have been a great example of how social media can affect the trading market. Part of our sample, Tesla would have been great to analyse in relation to Elon Musk tweets. We were unable to make this change due to time constraints and coding skills (data mining).
-4. Idea 4 - Why would this be good? Why couldn't we do this during the project?
-5. Idea 5 - Why would this be good? Why couldn't we do this during the project?
+3. **Analyse how our sample was affected by Twitter comments** - This would have been a great example of how social media can affect the Stock Market. Part of our sample, Tesla would have been great to analyse in relation to Elon Musk tweets. We were unable to make this change due to time constraints and coding skills (data mining).
 
 # Reference list
 
