@@ -12,7 +12,7 @@ Throughout 2020 and 2021, she watched closely that people who invested in stocks
 Raelyn, has kept aside $20,0000 to be invested over a period of time.  She asked us to research and analyse the following:
 * How top stocks and top crypto assests have performed over last 5 years.
 * How volatile these assets could be to any foreseen blackswan event or Market uncertainties
-* How much returns these assets would give, if invested $20,000 5 year ago?
+* How much returns these assets would give, if invested $20,000?
 1. Scenario 1:  Equally amoung the top 5 stocks and cryptos?
 2. Scenario 2:  100% in Crypto?
 3. Scenario 3:  100% in Stocks?
@@ -25,4 +25,4 @@ Raelyn, has kept aside $20,0000 to be invested over a period of time.  She asked
 
 
 ## Disclaimer:
-  In this project, we performed technical analysis of top 5 Cryptos and Stocks based on their market cap at the time.  The analysis is for research purposes only and must not be considered as investment advice
+  In this project, we performed technical analysis of top 5 Cryptos and Stocks based on their market cap at the time. The data used in the research is till 5th May 2022, and doesn't include the crypto market meltdown of the last week.  Most importantly, analysis is for research purposes only and must not be considered as investment advice
