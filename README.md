@@ -47,6 +47,7 @@ The project aims to help beginner investors *save* money and *make* money.
 
 <ins> Amazon *AMZN* </ins>  - Amazon.com, Inc. is an American multinational technology company which focuses on e-commerce, cloud computing, digital streaming, and artificial intelligence.[<sup>11</sup>](#reference-list)
 
+## Data Cleaning
 
 ### Dependancies
 
@@ -55,6 +56,14 @@ The project aims to help beginner investors *save* money and *make* money.
 - Libraries for Visualization - plotly.express, hvplot.pandas, matplotlib.pyplot, panel, pn.extension('plotly'), panel.interact, plotly.tools, seaborn
 - Libraries for Data Analysis - MCForecastTools
 - New Libraries used - yfinance, warnings, warnings.filterwarnings("ignore")
+
+### Clean- up and exploration
+
+We used Alpaca API to import the Stock Market data. Yfinance was used specifically for importing the S&P500 data. Once imported, we chose to use the closing prices for our analysis and then dropped nulls, columns and headings and sorted data where applicable.
+
+All the data sourced from Coingeko came in UNIX datetime format for dates so we had to convert that over. To fix tickers we used .droplevel(axis, level).
+
+Sadly, we noticeed too late that there were inconsistencies between Crypto and Stock data.
 
 ## Analysis
 
@@ -136,8 +145,13 @@ Below are the finds of our analysis.
 
 ### Monte Carlo
 
+<ins>Stocks Simulation</ins>
+
 ![Monte Carlo 1a](https://github.com/RaelynSangil/Project-1/blob/821c1fc0b6e90282845b0d9de267b96740476487/Graphs/Monte%20Carlo%201a.jpg)
 ![Monte Carlo 1b](https://github.com/RaelynSangil/Project-1/blob/821c1fc0b6e90282845b0d9de267b96740476487/Graphs/Monte%20Carlo%201b.jpg)
+
+<ins>Crypto Simulation</ins>
+
 ![Monte Carlo 2a](https://github.com/RaelynSangil/Project-1/blob/821c1fc0b6e90282845b0d9de267b96740476487/Graphs/Monte%20Carlo%202a.jpg)
 ![Monte Carlo 2b](https://github.com/RaelynSangil/Project-1/blob/821c1fc0b6e90282845b0d9de267b96740476487/Graphs/Monte%20Carlo%202b.jpg)
 
@@ -201,9 +215,11 @@ Below are the finds of our analysis.
 - We found that, of the crypto, BTC has the maxiumum standard deviation and GOOGL has the least over the last 5 years.
 - We found that, of the stocks, XRP has the maxiumum standard deviation and AAPL has the least over the last 5 years.
 - Our rolling standard deviation indicated volatility in the sample.
-- We foudn that crypto had a consistently higher correlation with all the other stocks over the last 4 years.
-
-Our portfolio analysis found that the scenario that most efficiently distributed investment funds was to distribute the allocated funds at a 40% Crypto and 60% Stocks split.
+- We found that crypto had a consistently higher correlation with all the other stocks over the last 4 years.
+- We found that crypto was more volatile than stocks.
+- We found that Crypto reacts negatively to major macro economic factions: Covid-19.
+- On a long term perspective, crypto assets gave better returns.
+- Our portfolio analysis found that the scenario that most efficiently distributed investment funds was to distribute the allocated funds at a 40% Crypto and 60% Stocks split.
 
 ## Room for Improvement
 
@@ -214,6 +230,10 @@ Our portfolio analysis found that the scenario that most efficiently distributed
 - <ins> Coingecko provided dates in UNIX </ins> - As we began cleaning our data for our crypto samples, we noticed that dates were a long string of unknoen numbers. We soon found out it was UNIX datetime format. We googled for example coding and found that the reason we were having difficulty was because the UNIX format was going down to the millisecond and not second as most of the sample code online was suggesting.
 
 - <ins> Some crypto weren't old enough </ins> - As we began cleaning our data, we noticed that LUNA and SOL were not at least 5 years old. As most of our analysis looked at how our sample had faired over a 5 year period, we needed to change these two crypto out for older ones. We chose LTC and XRP. We then had to extend our data cleaning time.
+
+- <ins> Branch pushing </ins> - We had difficulty all the way to presentation day with pushing our branches to the main.
+
+- <ins> Matplotlib graphs </ins> - these graphs were unable to be added to the dashboard. They would not interact.
 
 ### Future opportunities
 
