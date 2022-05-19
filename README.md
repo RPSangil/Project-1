@@ -45,7 +45,7 @@ The project aims to help beginner investors *save* money and *make* money.
 
 <ins> Tesla *TSLA* </ins>  - Tesla is a US company involved in car manufacturing and energy. Best described as a battery company, Tesla is best known for its electric cars. The company is also known for specialising in solar panels and Lithium-ion battery energy storage.[<sup>10</sup>](#reference-list)
 
-<ins> Amazon *AMZN* </ins>  - Amazon.com, Inc. is an American multinational technology company which focuses on e-commerce, cloud computing, digital streaming, and artificial intelligence.[<sup>11</sup>](#reference-list)
+<ins> Amazon *AMZN*  </ins>  - Amazon.com, Inc. is an American multinational technology company which focuses on e-commerce, cloud computing, digital streaming, and artificial intelligence.[<sup>11</sup>](#reference-list)
 
 
 ### Dependancies
