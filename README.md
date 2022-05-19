@@ -4,7 +4,7 @@
 - Raelyn Sangil (L)
 - Parvinder Rakhra
 - Kurt Cullerton
-- Ramon Lee
+
 
 ## Project Description
 
