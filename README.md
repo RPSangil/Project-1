@@ -4,7 +4,7 @@
 - Raelyn Sangil (L)
 - Parvinder Rakhra
 - Kurt Cullerton
-- Ramon Lee
+
 
 ## Project Description
 
@@ -133,15 +133,19 @@ Below are the finds of our analysis.
 
 ### Return after 5 years with 30 days as Weighted Average
 
-![Return after 5 years with 30 days as Weighted Average](https://github.com/RaelynSangil/Project-1/blob/821c1fc0b6e90282845b0d9de267b96740476487/Graphs/Return%20after%205%20years%20with%2030%20days%20as%20Weighted%20Average.jpg)
+![Return after 5 years with 30 days as Weighted Average](https://github.com/RaelynSangil/Project-1/blob/15658b9010a95dd98898a01592cca2cd233dde6e/Graphs/Return%20after%205%20years%20with%2030%20days%20as%20Weighted%20Average.jpg)
 
 ### Return after 6 years
 
 ![Return after 6 years](https://github.com/RaelynSangil/Project-1/blob/821c1fc0b6e90282845b0d9de267b96740476487/Graphs/Return%20after%206%20years.jpg)
 
+### Daily Returns% Change over 5 years
+
+![Daily Returns% Change over 5 years](https://github.com/RaelynSangil/Project-1/blob/15658b9010a95dd98898a01592cca2cd233dde6e/Graphs/Daily%20Returns%20percentage%20Change%20over%205%20years.jpg)
+
 ### Correlation Heatmap
 
-![Correlation Heatmap](https://github.com/RaelynSangil/Project-1/blob/821c1fc0b6e90282845b0d9de267b96740476487/Graphs/Correlation%20Heatmap.jpg)
+![Correlation Heatmap](https://github.com/RaelynSangil/Project-1/blob/15658b9010a95dd98898a01592cca2cd233dde6e/Graphs/Correlation%20Heatmap.jpg)
 
 ### Monte Carlo
 
@@ -161,28 +165,29 @@ Below are the finds of our analysis.
 
 ### Volatility
 
-![Volatility to Blackswan event Covid-19](https://github.com/RaelynSangil/Project-1/blob/821c1fc0b6e90282845b0d9de267b96740476487/Graphs/Volatility%20to%20Blackswan%20event%20Covid-19.jpg)
-![Volatility to Market Uncertainty](https://github.com/RaelynSangil/Project-1/blob/821c1fc0b6e90282845b0d9de267b96740476487/Graphs/Volatility%20to%20Market%20Uncertainty.jpg)
+![Volatility to Blackswan event Covid-19](https://github.com/RaelynSangil/Project-1/blob/15658b9010a95dd98898a01592cca2cd233dde6e/Graphs/Volatility%20to%20Blackswan%20event%20Covid-19.jpg)
+![Volatility to Market Uncertainty](https://github.com/RaelynSangil/Project-1/blob/15658b9010a95dd98898a01592cca2cd233dde6e/Graphs/Volatility%20to%20Market%20Uncertainty.jpg)
 
 ### Blackswan Event - Covid-19
 
 <ins>How Covid-19 Affected the Crypto and Stock Market in context</ins>
 
-![How Covid-19 Affected the Crypto and Stock Market in context](https://github.com/RaelynSangil/Project-1/blob/821c1fc0b6e90282845b0d9de267b96740476487/Graphs/How%20Covid-19%20Affected%20the%20Crypto%20and%20Stock%20Market%20in%20context.jpg)
+![How Covid-19 Affected the Crypto and Stock Market in context](https://github.com/RaelynSangil/Project-1/blob/15658b9010a95dd98898a01592cca2cd233dde6e/Graphs/How%20Covid-19%20Affected%20the%20Crypto%20and%20Stock%20Market%20in%20context.jpg)
 
 <ins>How Covid-19 Affected the Crypto and Stock Market zoom</ins>
 
-![How Covid-19 Affected the Crypto and Stock Market zoom](https://github.com/RaelynSangil/Project-1/blob/821c1fc0b6e90282845b0d9de267b96740476487/Graphs/How%20Covid-19%20Affected%20the%20Crypto%20and%20Stock%20Market%20zoom.jpg)
+![How Covid-19 Affected the Crypto and Stock Market zoom](https://github.com/RaelynSangil/Project-1/blob/15658b9010a95dd98898a01592cca2cd233dde6e/Graphs/How%20Covid-19%20Affected%20the%20Crypto%20and%20Stock%20Market%20zoom.jpg)
 
 ### Blackswan Event - Russia vs. Ukraine War
 
 <ins>How The Russia vs. Ukraine War Affected the Crypto and Stock Market in context</ins>
 
-![How The Russia vs. Ukraine War Affected the Crypto and Stock Market in context](https://github.com/RaelynSangil/Project-1/blob/821c1fc0b6e90282845b0d9de267b96740476487/Graphs/How%20The%20Russia%20vs.%20Ukraine%20War%20Affected%20the%20Crypto%20and%20Stock%20Market%20in%20context.jpg)
+![How The Russia vs. Ukraine War Affected the Crypto and Stock Market in context](https://github.com/RaelynSangil/Project-1/blob/15658b9010a95dd98898a01592cca2cd233dde6e/Graphs/How%20The%20Russia%20vs.%20Ukraine%20War%20Affected%20the%20Crypto%20and%20Stock%20Market%20in%20context.jpg)
+
 
 <ins>How The Russia vs. Ukraine War Affected the Crypto and Stock Market zoom</ins>
 
-![How The Russia vs. Ukraine War Affected the Crypto and Stock Market zoom](https://github.com/RaelynSangil/Project-1/blob/821c1fc0b6e90282845b0d9de267b96740476487/Graphs/How%20The%20Russia%20vs.%20Ukraine%20War%20Affected%20the%20Crypto%20and%20Stock%20Market%20zoom.jpg)
+![How The Russia vs. Ukraine War Affected the Crypto and Stock Market zoom](https://github.com/RaelynSangil/Project-1/blob/15658b9010a95dd98898a01592cca2cd233dde6e/Graphs/How%20The%20Russia%20vs.%20Ukraine%20War%20Affected%20the%20Crypto%20and%20Stock%20Market%20zoom.jpg)
 
 ### Weighted Portfolio Comparisons
 
